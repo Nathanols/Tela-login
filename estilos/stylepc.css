@@ -1,6 +1,57 @@
 
 @media screen and (min-width: 768px){
-    .item{
-        width: 500px;
+
+    .login{
+        width: 80vw;
+        height: 280px;
+        display: flex;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     }
+
+    img{
+        height: 280px;
+        width: 280px;
+        border-radius: 14px 0px 0px 14px;
+    }
+
+    p{
+        margin-bottom: 10px;
+    }
+
+    button{
+        width: 96%;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .login{
+        width: 80%;
+        height: 350px;
+        flex-direction: row-reverse;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    }
+
+    img{
+        height: 350px;
+        width: 320px;
+        border-radius: 0px 14px 14px 0px;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+
+    .textarea{
+        height: 40px;
+        width: 95%;
+    }
+
+    button{
+        height: 45px;
+        width: 95%;
+        margin-top: 10px;
+    }
+
 }
