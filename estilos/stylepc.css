@@ -1,8 +1,12 @@
 
 @media screen and (min-width: 768px){
 
+    body{
+        background-image: linear-gradient(to top, black, #c21e1ef3);
+    }
+
     .login{
-        width: 80vw;
+        width: 90vw;
         height: 280px;
         display: flex;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -27,22 +31,29 @@
 @media (min-width: 992px){
 
     .login{
-        width: 80%;
+        width:950px;
         height: 350px;
         flex-direction: row-reverse;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     }
 
+    div#formulario{
+        display: block;
+        justify-content: center;
+    }
+
     img{
         height: 350px;
-        width: 320px;
+        width: 400px;
         border-radius: 0px 14px 14px 0px;
     }
 
     p{
-        margin-bottom: 30px;
+        font-size: 1.2em;
+        margin-bottom: 15px;
     }
 
+    
     .textarea{
         height: 40px;
         width: 95%;
@@ -52,6 +63,7 @@
         height: 45px;
         width: 95%;
         margin-top: 10px;
+        font-size: larger;
     }
 
 }

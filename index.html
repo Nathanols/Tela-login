@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/stylepc.css">
 </head>
@@ -12,23 +12,28 @@
     <div class="container">
         <div class="login">
             <img src="imagens/logo-minimal-naruto.jpg" alt="">
-            <div>
+
+            <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <div class="textarea">
-                    <i class="lupa"></i>
-                    <input type="text" placeholder="seu@email.com">
-                </div>
-                <div class="textarea">
-                    <i class="boneco"></i>
-                    <input type="password" placeholder="sua senha">
-                </div>
-                <div>
-                    <button class="entrar"> Entrar</button>
-                </div>
-                <div>
-                    <button class="senha"> Esqueci a minha senha</button>
-                </div>
+
+                <form action="login.php" method="post">
+                    <div class="textarea">
+                        <i class="material-icons">person</i>
+                        <input type="text" placeholder="seu@email.com">
+                    </div>
+                    <div class="textarea">
+                        <i class="material-icons">key</i>
+                        <input type="password" placeholder="sua senha">
+                    </div>
+
+                    <div>
+                        <button class="entrar"> Entrar</button>
+                    </div>
+                    <div>
+                        <button class="senha"> Esqueci a minha senha</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
